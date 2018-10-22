@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ #cat-image {
+   width: 200px;
+   height: 200px;
+   /* background-image: url('cat.png'); */
+  //  background-image: url(asset-path('cat.jpeg'));
+  background-image: asset-url('cat')
+ }
